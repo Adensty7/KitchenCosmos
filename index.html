@@ -20,7 +20,7 @@
                         <a href="#" class="navbar-brand text-dark fw-bold fst-italic fs-1">Kitchen Cosmos</a>
                         <span class="float-end h4 pt-lg-2 pt-1">
                             <a href="#" class="nav-link d-inline-block text-dark"><i class="bi bi-search"></i></a>
-                            <a href="#" class="nav-link d-inline-block text-dark"><i class="bi bi-cart"></i></a>
+                            <a href="#cart" class="nav-link d-inline-block text-dark" data-bs-toggle="offcanvas" role="button" aria-controls="cart"><i class="bi bi-cart"></i></a>
                         </span>
                         <span class="float-start pt-1 h3">
                             <a href="#sidenav" class="nav-link d-inline-block text-dark" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar"><i class="bi bi-list d-block d-sm-none"></i></a>
@@ -29,36 +29,50 @@
             </div>
         </div>
 
-<!-- Offcanvas -->
-
-<!-- Left Offcanvas -->
-<div class="offcanvas offcanvas-start" tabindex="-1" id="sidenav" aria-labelledby="sidebar-label">
+<!-- Sidenav -->
+<div class="offcanvas offcanvas-start d-sm-none d-block" tabindex="-1" id="sidenav" aria-labelledby="sidebar-label">
     <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="sidebar-label">Left Sidebar</h5>
+        <h5 class="offcanvas-title" id="sidebar-label">Sidebar</h5>
         <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
         <ul class="list-group">
+            <li class="d-inline-block nav-link">Home</li>
+            <li class="d-inline-block nav-link">Kitchen</li>
+            <li class="d-inline-block nav-link">Appliances</li>
+            <li class="d-inline-block nav-link">Sale</li>
+            <li class="d-inline-block nav-link">Login</li>
         </ul>
     </div>
 </div>
 
+<!-- Cart -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="cart" aria-labelledby="cart-label">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="cart-label">Cart</h5>
+        <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <p>The cart is empty</p>
+    </div>
+</div>
+
         <div class="row text-center">
-                <div class="col h5 nav-item">
-                    Home
-                </div>
-                <div class="col h5 nav-item">
-                    Kitchen
-                </div>
-                <div class="col h5 nav-item">
-                    Appliances
-                </div>
-                <div class="col h5 nav-item">
-                    Sale
-                </div>
-                <div class="col h5 nav-item">
-                    Login
-                </div>
+            <div class="col h6 nav-item d-sm-block d-none">
+                <a href="#" class="nav-link">Home</a>
+            </div>
+            <div class="col h6 nav-item d-sm-block d-none">
+                <a href="#" class="nav-link">Kitchen</a>
+            </div>
+            <div class="col h6 nav-item d-sm-block d-none">
+                <a href="#" class="nav-link ">Appliances</a>
+            </div>
+            <div class="col h6 nav-item d-sm-block d-none">
+                <a href="#" class="nav-link">Sale</a>
+            </div>
+            <div class="col h6 nav-item d-sm-block d-none">
+                <a href="#" class="nav-link">Login</a>
+            </div>
         </div>
     </section>
 

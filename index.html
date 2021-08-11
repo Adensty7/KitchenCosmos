@@ -19,7 +19,7 @@
             <div class="col-lg-12 text-center">
                         <a href="#" class="navbar-brand text-dark fw-bold fst-italic fs-1">Kitchen Cosmos</a>
                         <span class="float-end h4 pt-lg-2 pt-1">
-                            <a href="#" class="nav-link d-inline-block text-dark"><i class="bi bi-search"></i></a>
+                            <a href="#search" class="nav-link d-inline-block text-dark" data-bs-toggle="offcanvas" role="button" aria-controls="search"><i class="bi bi-search"></i></a>
                             <a href="#cart" class="nav-link d-inline-block text-dark" data-bs-toggle="offcanvas" role="button" aria-controls="cart"><i class="bi bi-cart"></i></a>
                         </span>
                         <span class="float-start pt-1 h3">
@@ -43,6 +43,21 @@
             <li class="d-inline-block nav-link">Sale</li>
             <li class="d-inline-block nav-link">Login</li>
         </ul>
+    </div>
+</div>
+
+<!-- Search -->
+<div class="offcanvas offcanvas-top" tabindex="-1" id="search" aria-labelledby="search-label">
+    <div class="offcanvas-header">
+        <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <center>
+            <form class="d-flex w-50 p-5">
+                <input class="form-control me-2 white-bg" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+        </center>
     </div>
 </div>
 
@@ -77,7 +92,7 @@
     </section>
 
     <!-- Carousel -->
-    <section id="carou-sel">
+    <section id="carousel">
         <div id="jumbotron">
             <div class="jumbotron px-5 py-4 d-none d-sm-block">
                 <h1 class="h2">Get your Dream Cook Space Done Safely !</h1>

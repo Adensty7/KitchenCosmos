@@ -22,7 +22,7 @@
   background-color: lightgrey;
   top: 30%;
   bottom: 30%;
-  width: 50%;
+  width: 40%;
   color: black;
   font-size: large;
   z-index: 2;
@@ -32,11 +32,51 @@
   background-color: white;
 }
 
+.dsblue-bg {
+  background-color: darkslateblue;
+}
+
+
+#about-us {
+  background-color: linen;
+  opacity: 0.7;
+}
+
+#reviews {
+  background-color: darkslateblue;
+  color: white;
+}
+
+
+#trends {
+  color: white;
+  box-sizing: border-box;
+  background-image: url("../img/mkitchen4.png");
+}
+
+#picks {
+  background-color: lemonchiffon;
+  color: black;
+}
+
+#footer {
+  background-color: lemonchiffon;
+  color: black;
+}
+
+
+.img1 {
+  -webkit-filter: drop-shadow(8px 8px 10px black)  grayscale(80%); 
+  position: relative;
+  filter: drop-shadow(8px 8px 10px black)  grayscale(80%);
+}
+
 
 @media screen and (max-width: 576px) {
   img {
     max-height: 700px;
   }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -45,14 +85,5 @@
     width: 60%;
     bottom: unset;
   }
-}
-
-#about-us {
-  background-color: linen;
-  opacity: 0.7;
-}
-
-#footer {
-  background-color: lemonchiffon;
-  color: black;
+ 
 }

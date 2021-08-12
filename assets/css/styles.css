@@ -12,6 +12,10 @@
   background-color: black;
 }
 
+#sidenav li a {
+  text-decoration: none;
+}
+ 
 .carousel {
   position: relative;
 }

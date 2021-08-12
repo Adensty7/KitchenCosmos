@@ -42,9 +42,63 @@
   opacity: 0.7;
 }
 
-#reviews {
-  background-color: darkslateblue;
+#steps {
   color: white;
+}
+
+#connect {
+  color: black;
+}
+
+.linen-bg {
+  background-color: linen;
+  opacity: 0.8;
+}
+
+.step1 {
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+
+.parallax1 {
+  /* The image used */
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)) , url(/assets/img/mkitchen4.png);
+
+  filter: drop-shadow(8px 8px 10px black);
+
+  
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax2 {
+  /* The image used */
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(/assets/img/mkitchen5.png);
+
+  filter: drop-shadow(8px 8px 10px gray) grayscale(10%);
+
+  
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 #trends {
@@ -52,10 +106,10 @@
   box-sizing: border-box;
 }
 
-.parallax {
+.parallax3 {
   /* The image used */
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(/assets/img/mkitchen4.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(/assets/img/mkitchen6.png);
 
   filter: drop-shadow(8px 8px 10px black);
 
@@ -83,6 +137,11 @@
   top: 0px;
   left: 0px;
   font-size: 18px;
+}
+
+#reviews {
+  background-color: darkslateblue;
+  color: white;
 }
 
 #picks {

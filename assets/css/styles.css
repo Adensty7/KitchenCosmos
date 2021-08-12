@@ -47,11 +47,42 @@
   color: white;
 }
 
-
 #trends {
   color: white;
   box-sizing: border-box;
-  background-image: url("../img/mkitchen4.png");
+}
+
+.parallax {
+  /* The image used */
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(/assets/img/mkitchen4.png);
+
+  filter: drop-shadow(8px 8px 10px black);
+
+  
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.relative {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  opacity: 0.8;
+  background-color: darkslategray;
+  top: 0px;
+  left: 0px;
+  font-size: 18px;
 }
 
 #picks {

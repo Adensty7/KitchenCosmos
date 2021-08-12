@@ -3,6 +3,10 @@
   opacity: 0.7;
 }
 
+#navbar:hover {
+  opacity: 1;
+}
+
 .nav-link {
   color: black;
 }
@@ -32,6 +36,8 @@
   z-index: 2;
 }
 
+
+
 .white-bg {
   background-color: white;
 }
@@ -42,8 +48,7 @@
 
 
 #about-us {
-  background-color: linen;
-  opacity: 0.7;
+  background-color: white;
 }
 
 #steps {
@@ -59,12 +64,11 @@
   opacity: 0.8;
 }
 
-.step1 {
+
+.step {
   background-color: white;
   color: black;
-  position: absolute;
-  top: 10%;
-  left: 30%;
+  border-radius: 100%;
 }
 
 .parallax1 {
@@ -72,7 +76,7 @@
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)) , url(/assets/img/mkitchen4.png);
 
-  filter: drop-shadow(8px 8px 10px black);
+  filter: drop-shadow(0px 8px 10px black);
 
   
   /* Set a specific height */
@@ -91,7 +95,7 @@
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(/assets/img/mkitchen5.png);
 
-  filter: drop-shadow(8px 8px 10px gray) grayscale(10%);
+  filter: drop-shadow(0px 8px 10px gray) grayscale(10%);
 
   
   /* Set a specific height */
@@ -115,7 +119,7 @@
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(/assets/img/mkitchen6.png);
 
-  filter: drop-shadow(8px 8px 10px black);
+  filter: drop-shadow(0px 8px 10px black);
 
   
   /* Set a specific height */
@@ -160,9 +164,9 @@
 
 
 .img1 {
-  -webkit-filter: drop-shadow(8px 8px 10px black)  grayscale(80%); 
+  -webkit-filter: drop-shadow(0px 8px 10px black)  grayscale(80%); 
   position: relative;
-  filter: drop-shadow(8px 8px 10px black)  grayscale(80%);
+  filter: drop-shadow(0px 8px 10px black)  grayscale(80%);
 }
 
 
